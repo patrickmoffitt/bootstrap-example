@@ -1,0 +1,25 @@
+{
+  "name": "bootstrap-example",
+  "productName": "Bootstrap Example",
+  "version": "1.0.0",
+  "description": "Demonstrates how to use Bootstrap and jQuery.",
+  "main": "main.js",
+  "repository": "https://github.com/patrickmoffitt/bootstrap-example",
+  "author": "Patrick K. Moffitt, CSM, M.A.",
+  "license": "MIT",
+  "devDependencies": {},
+  "scripts": {
+    "start": "electron .",
+    "start-mac": "/Applications/Electron.app/Contents/MacOS/Electron ."
+  },
+  "dependencies": {
+    "bootstrap": "4",
+    "jquery": "^3.2.1",
+    "tether": "^1.4.0"
+  },
+  "standard": {
+    "globals": [
+      "$"
+    ]
+  }
+}
