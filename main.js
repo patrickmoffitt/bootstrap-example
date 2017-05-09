@@ -24,17 +24,11 @@ app.on('ready', function () {
 
   // Enable keyboard shortcuts for Developer Tools on various platforms.
   let platform = os.platform()
-  if (platform === 'win32') {
-    for (let key in ['F12', 'Control+Shift+I']) {
-      globalShortcut.register(key, () => {
-        mainWindow.webContents.openDevTools()
-      })
-    }
-  } else if (platform === 'darwin') {
+  if (platform === 'darwin') {
     globalShortcut.register('Command+Option+I', () => {
       mainWindow.webContents.openDevTools()
     })
-  } else if (platform === 'linux') {
+  } else if (platform === 'linux' || platform === 'win32') {
     globalShortcut.register('Control+Shift+I', () => {
       mainWindow.webContents.openDevTools()
     })
