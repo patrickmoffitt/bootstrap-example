@@ -7,7 +7,7 @@ What is Electron?
 
 > If you can build a website, you can build a desktop app. Electron is a framework for creating native applications with web technologies like JavaScript, HTML, and CSS. It takes care of the hard parts so you can focus on the core of your application.
 
-I built this demonstration application for those of you who have experience building web applications and are just getting started with Electron. I choose to implement Bootstrap 4 because:
+I built this demonstration application for those of you who have experience building web applications and are just getting started with Electron. I chose to implement Bootstrap 4 because:
 
 > Bootstrap is the most popular HTML, CSS, and JS framework in the world for building responsive, mobile-first projects on the web
 
