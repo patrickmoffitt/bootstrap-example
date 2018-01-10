@@ -7,11 +7,11 @@ What is Electron?
 
 > If you can build a website, you can build a desktop app. Electron is a framework for creating native applications with web technologies like JavaScript, HTML, and CSS. It takes care of the hard parts so you can focus on the core of your application.
 
-I built this demonstration application for those of you who have experience building web applications and are just getting started with Electron. I chose to implement Bootstrap 4 because:
+I built this demonstration application for those of you who have experience building web applications and are just getting started with Electron. I chose to implement Bootstrap 4.0.0-beta3 because:
 
 > Bootstrap is the most popular HTML, CSS, and JS framework in the world for building responsive, mobile-first projects on the web
 
-It happens to require jQuery which also comes in handy for web development. I borrowed the [example markup](https://v4-alpha.getbootstrap.com/examples/dashboard/) from the Bootstrap project.
+It happens to require jQuery which also comes in handy for web development. I borrowed the [Dashboard example markup](https://getbootstrap.com/docs/4.0/examples/dashboard/) from the Bootstrap project. As example markup its purpose is merely to demonstrate a responsive layout. The menu buttons demonstrate roll-over behavior but do not link to anything. The search box doesn't work. To the example for it's intended purpose grab the window frame and resize it. Watch the interface fold and unfold as it redesigns itself making the best use of the available space as the window goes from phone size to table size to desktop size.
 
 Quick Code Tour
 ---------------
