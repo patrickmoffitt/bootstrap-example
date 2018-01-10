@@ -13,6 +13,18 @@ I built this demonstration application for those of you who have experience buil
 
 It happens to require jQuery which also comes in handy for web development. I borrowed the [Dashboard example markup](https://getbootstrap.com/docs/4.0/examples/dashboard/) from the Bootstrap project. As example markup its purpose is merely to demonstrate a responsive layout. The menu buttons demonstrate roll-over behavior but do not link to anything. The search box doesn't work. To the example for it's intended purpose grab the window frame and resize it. Watch the interface fold and unfold as it redesigns itself making the best use of the available space as the window goes from phone size to table size to desktop size.
 
+Desktop
+-------
+![desktop](screenshots/desktop.png)
+
+Tablet
+-------
+![tablet](screenshots/tablet.png)
+
+Phone
+-------
+![phone](screenshots/phone.png)
+
 Quick Code Tour
 ---------------
 
