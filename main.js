@@ -17,7 +17,10 @@ app.on('ready', function () {
     show: false,
     webPreferences: {
       nodeIntegration: true,
-      defaultEncoding: 'UTF-8'
+      defaultEncoding: 'UTF-8',
+      worldSafeExecuteJavaScript: true,
+      /* See https://stackoverflow.com/questions/63427191/security-warning-in-the-console-of-browserwindow-electron-9-2-0 */
+      enableRemoteModule: true
     }
   })
 
